@@ -1,6 +1,6 @@
 import { Body, Controller, HttpStatus, Post } from "@nestjs/common";
 import { ApiResponse, ApiTags } from "@nestjs/swagger";
-import { User } from "src/users/entities/user.entity";
+import { User } from "..//users/entities/user.entity";
 import { CreateUserDto } from "../users/dto/create-user.dto";
 import { AuthService } from "./auth.service";
 import { AuthDto } from "./dto/AuthDto";
