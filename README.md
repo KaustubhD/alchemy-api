@@ -1,5 +1,7 @@
 # Weather and news API
 
+Access swagger at `http://localhost:3000/swagger`
+
 ## Specs
 1. NestJS 8
 2. Sqlite
