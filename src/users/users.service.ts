@@ -26,8 +26,8 @@ export class UsersService {
   async findOne(userId: string): Promise<User> {
     return this.removeSensitiveInfo(await this.userRepository.findOneBy({ userId }));
   }
-  async findOneByEmail(email: string): Promise<User> {
-    return this.userRepository.findOneBy({ email });
+  async findOneByUserName(userName: string): Promise<User> {
+    return this.userRepository.findOneBy({ userName });
   }
 
   removeSensitiveInfo(user: User): User {

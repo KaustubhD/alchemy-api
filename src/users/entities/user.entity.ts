@@ -10,10 +10,6 @@ export class User {
   })
   public userName: string;
 
-  @Column({
-    unique: true,
-  })
-  public email: string;
 
   @Column({
     length: 256,
